@@ -17,19 +17,23 @@ body {
 .page-wrapper:nth-child(2n) {
     margin-left: 56px;
 }
+header {
+    margin-top: 77px;
+    margin-bottom: 103px;
+}
 nav ul {
     list-style: none;
     text-align: center;
-    margin-top: 77px;
-    margin-bottom: 103px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 0 100px;
 }
 li.menu-list {
     display: inline-block;
-    margin-left: 89px;
+    margin-right: 89px;
 }
-li.menu-list:nth-child(1) {
-    margin-left: 0;
+li.menu-list:nth-child(4n) {
+    margin-right: 0;
 }
 
 li.menu-list a {
