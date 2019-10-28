@@ -72,7 +72,7 @@ li.menu-item:nth-child(6) {
     margin-top: 32px;
     margin-bottom: 93px;
 }
-.product {
+.produkt-wrapp {
     display: block;
     width: 255px;
     background: #e9f0fd;
@@ -83,10 +83,23 @@ li.menu-item:nth-child(6) {
     height: auto;
     overflow: hidden;
 }
-.product:hover .block-produkt_price {
+.produkt-block {
+    width: 255px;
+}
+.produkt-img {
+    background: #e9f0fd;
+    display: block;
+}
+.produkt-block:hover .block-produkt_price {
     background: #1abc9c;
 }
-.product:nth-child(4) {
+.block-produkt_price:hover  {
+    background: #1abc9c;
+}
+.block-produkt_price h4:hover .block-produkt_price {
+    background: #1abc9c;
+}
+.produkt-wrapp:nth-child(4) {
     margin-right: 0;
 }
 .block-produkt_price {
@@ -109,6 +122,7 @@ li.menu-item:nth-child(6) {
 .price-text {
     float: left;
     padding: 11px 14px;
+    text-decoration: none;
 }
 .price {
     float: right;
