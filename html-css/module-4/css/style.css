@@ -28,6 +28,7 @@ header {
 }
 .logo::first-letter {
     color: #1abc9c;
+    font-weight:bold;
 }
 .menu ul {
     float: right;
