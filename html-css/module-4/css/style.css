@@ -28,11 +28,7 @@ nav .menu {
 }
 .logo::first-letter {
     color: #1abc9c;
-<<<<<<< HEAD
     font-weight: bold;
-=======
-    font-weight:bold;
->>>>>>> 4036c5bd2d5f310bb33c08e8ef28a10f7804788c
 }
 .menu ul {
     float: right;
