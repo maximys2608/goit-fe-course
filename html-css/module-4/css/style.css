@@ -25,6 +25,7 @@ body {
     font-family: 'Roboto';
     font-size: 30px;
     color: #555252;
+    padding-top: 5px;
 }
 .logo::first-letter {
     color: #1abc9c;
