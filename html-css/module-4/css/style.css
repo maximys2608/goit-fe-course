@@ -32,6 +32,8 @@ body {
 }
 .menu ul {
     float: right;
+    margin: 0;
+    padding: 14px 0;
 }
 .menu-link {
     color: #0f0101;
