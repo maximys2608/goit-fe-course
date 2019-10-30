@@ -15,7 +15,7 @@ body {
     display: table;
     clear: both;
   }
-nav .menu {
+.menu {
     margin-top: 38px;
 }
 .logo {
