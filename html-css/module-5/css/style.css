@@ -71,6 +71,7 @@ li.menu-item:nth-child(6) {
 .slider img {
     filter: brightness(0.522);
     width: 100%;
+    display: block;
 }
 
 .name_slider {
