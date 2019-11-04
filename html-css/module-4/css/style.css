@@ -15,7 +15,7 @@ body {
     display: table;
     clear: both;
   }
-nav .menu {
+.menu {
     margin-top: 38px;
 }
 .logo {
@@ -25,17 +25,17 @@ nav .menu {
     font-family: 'Roboto';
     font-size: 30px;
     color: #555252;
+    padding-top: 5px;
+    font-weight: 300;
 }
 .logo::first-letter {
     color: #1abc9c;
-<<<<<<< HEAD
     font-weight: bold;
-=======
-    font-weight:bold;
->>>>>>> 4036c5bd2d5f310bb33c08e8ef28a10f7804788c
 }
 .menu ul {
     float: right;
+    margin: 0;
+    padding: 14px 0;
 }
 .menu-link {
     color: #0f0101;
@@ -100,6 +100,9 @@ li.menu-item:nth-child(6) {
     background: #1abc9c;
 }
 .produkt-block:nth-child(4) {
+    margin-right: 0;
+}
+.produkt-block:nth-child(8) {
     margin-right: 0;
 }
 .block-produkt_price {
