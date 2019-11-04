@@ -19,7 +19,7 @@ body {
     clear: both;
   }
 .menu {
-    margin-top: 38px;
+    padding-top: 38px;
     margin-bottom: 35px;
 }
 .logo {
@@ -29,7 +29,7 @@ body {
     font-family: 'Roboto';
     font-size: 30px;
     color: #555252;
-    padding-top: 5px;
+    padding-top: 40px;
     font-weight: 300;
 }
 .logo::first-letter {
@@ -174,9 +174,6 @@ li.menu-item:nth-child(6) {
 .produkt-img {
     background: #e9f0fd;
     display: block;
-}
-.produkt-block:hover {
-
 }
 .produkt-block:hover .block-produkt_price {
     background: #1abc9c;
