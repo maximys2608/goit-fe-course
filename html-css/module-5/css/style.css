@@ -21,6 +21,7 @@ body {
 .menu {
     padding-top: 38px;
     margin-bottom: 35px;
+    float: right;
 }
 .logo {
     float: left;
