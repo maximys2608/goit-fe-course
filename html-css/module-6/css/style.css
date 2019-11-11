@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat' ,'Arial', sans-serif;
+    font-size: 14px;
+    color: black;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.menu ul{
+   display: flex;
+}
+.logo {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #95e1d3;
+    font-weight: 700;
+}
+.menu ul {
+    margin: 0;
+    padding: 14px 0;
+}
+.menu-item {
+    padding: 30px;
+    display: block;
+}
+.menu-link {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #95e1d3;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+    padding-bottom: 10px;
+    
+}
+.menu-link:hover {
+    color: #f38181;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 3px solid #f38181;
+    padding-bottom: 10px;
+    transition:  0.2s linear;
+
+}
+li.menu-item {
+    list-style-type: none;
+}
+li.menu-item:nth-child(5) {
+    padding-right: 0;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* service */
+.service-title {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 90px;
+}
+.service-title::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    display: block;
+    background-color: #f38181;
+    margin: 0 auto;
+    margin-top: 42px;
+}
+.service-title span {
+    display: block;
+    font-family: 'Kaushan Script';
+    font-size: 24px;
+    text-transform: none;
+    font-weight: 400;
+}
+.service-item {
+    list-style-type: none;
+    display: flex;
+    flex-basis: 380px;
+}
+.ALARM::before {
+    content: '';
+    background-image: url('../img/ALARM.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    padding: 0 20px;
+}
+.LINE_GRAPH::before {
+    content: '';
+    background-image: url('../img/LINE_GRAPH.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    padding: 0 20px;
+}
+.COMPUTEROK::before {
+    content: '';
+    background-image: url('../img/COMPUTEROK.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    padding: 0 20px;
+}
+.BOOK2::before {
+    content: '';
+    background-image: url('../img/BOOK2.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    padding: 0 20px;  
+}
+.HOME::before {
+    content: '';
+    background-image: url('../img/HOME.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    padding: 0 20px;
+}
+.IMAGE::before {
+    content: '';
+    background-image: url('../img/IMAGE.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    padding: 0 20px;
+}
+.service-item:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+.service-item:nth-child(-n+3) {
+    margin-bottom: 30px;
+}
+.service-img {
+    margin: 0 20px;
+}
+.service-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 42px;
+}
+.service-block_text h3 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
+    padding-bottom: 15px;
+}
+.service-block_text p {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 24px;
+}
+/* Team */
+.team-block {
+    display: block;
+    list-style-type: none;
+}
+.team-title_text {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 24px;
+}
+.team-item {
+    margin-right: 30px;
+    position: relative;
+    float: left;
+    transition: all 0.2s;
+}
+.team-item:last-child {
+    margin-right: 0;
+}
+.overlay-team {
+    background-image: linear-gradient(rgba(243,129,129, .9), rgba(241,214,138, .9));
+    position: absolute;
+    width: 380px;
+    height: 470px;
+    display: none;
+    
+}
+.team-img {
+    display: block;
+}
+.team-cart {
+    transition:  0.2s linear;
+}
+.team-cart:hover {
+    transform: translate(-15px, -15px);
+    box-shadow: 15px 15px 0 #95e1d3;
+    transition:  0.2s linear;
+}
+.team-cart:hover .overlay-team {
+    display: block;
+    transition:  0.2s linear;
+
+    
+}
+.team-icon {
+    width: 57px;
+    height: 57px;
+    background-color: #fce38a;
+    text-align: center;
+    display: block;
+    padding-top: 16px;
+    margin-left: 2px;
+    transition: 0.2s;
+}
+.team-icon:hover {
+    background-color: #95e1d3;
+    transition: 1s;
+}
+.wrapp-icon {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.team-text h3 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
+    text-align: center;
+    margin-top: 30px;
+}
+.team-text p {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 86px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 24px;
+}
+/* footer */
+footer {
+    border-top: 1px solid#e5e5e5;
+}
+.copiryte {
+    padding: 25px 0;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+}
+.copiryte a {
+    text-decoration: none;
+    color: #f38181;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+form input {
+    height: 43px;
+    width: 230px;
+    border: 1px solid #cccccc;
+    border-right: none;
+}
+.team-button {
+    margin-left: -4px;
+    width: 150px;
+    height: 43px;
+    color: #ffffff;
+    border: none;
+    background-color: #95e1d3;
+    border: 1px solid #95e1d3;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+.team-button:hover {
+    color: #95e1d3;
+    background-color: #ffffff;
+    border: 1px solid #95e1d3;
+    transition: 0.2s;
+}
+footer input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: #cccccc;
+    text-transform: capitalize;
+    padding-left: 10px;
