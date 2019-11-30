@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat-Bold', 'Arial', sans-serif;
+    font-size: 14px;
+}
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+         url('../fonts/Montserrat-Bold.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */
+         url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('../fonts/Montserrat-Regular.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */
+         url('../fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Roboto-Light';
+    src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+         url('../fonts/Roboto-Light.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */
+         url('../fonts/Roboto-Light.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */
+         url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  /* title-section */
+  header {
+      background: url('../img/bg.png'), no-repeat rgb(0,0,0);
+      background-size: cover;
+      background-position: center;
+      padding-bottom: 140px;
+}
+.logo {
+    display: block;
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+}
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    padding-top: 20px;
+    list-style-type: none;
+}
+.nav-wrapper {
+    flex-direction: column-reverse;
+    display: flex;
+}
+.login {
+    text-decoration: none;
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    padding-top: 6px;
+    color: #ffffff;
+    border-radius: 20px;
+    transition: all 0.2s;
+    border: 2px solid transparent;
+}
+.login:hover {
+  border: 2px solid#ffffff;
+  transition: all 0.2s;
+}
+.sing-up {
+    text-decoration: none;
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    padding-top: 6px;
+    color: #ffffff;
+    border-radius: 20px;
+    transition: all 0.2s;
+    border: 2px solid transparent;
+}
+.sing-up:hover {
+  border: 2px solid#ffffff;
+  transition: all 0.2s;
+}
+.title {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .title-text {
+    font-family: 'Roboto-Light';
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .title-button {
+    width: 280px;
+    min-height: 42px;
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    background-color: rgb(255, 78, 80);
+    text-align: center;
+    color: #ffffff;
+    padding-top: 12px;
+    margin: 0 auto;
+  }
+  /* section partner */
+.partner-title {
+    margin-top: 70px;
+    font-size: 22px;
+    text-align: center;
+    color: #333333;
+  }
+  .partner-img {
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+    border-radius: 50%;
+  }
+  .shape128::after {
+    content: '';
+    width: 37px;
+    height: 37px;
+    background-image: url('../img/Shape128.png') no-repeat red;
+    border-radius: 50%;
+    display: block;
+    border: 2px solid #ffffff;
+  }
+  .partner-item {
+    list-style-type: none;
+    position: relative;
+    /* width: 320px; */
+    margin: 0 auto;
+  }
+  .partner-item h3 {
+    text-align: center;
+    color:#333333;
+    padding: 20px 0;
+    font-size: 14px;
+    
+  }
+  .partner-text {
+    font-family: 'Roboto-Light';
+    color: #666666;
+    text-align: center;
+    width: 193px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .partner::after {
+    content: '';
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: block;
+    border: 3px solid #ffffff;
+    position: absolute;
+    right: 80px;
+    top: 80px;
+  }
+  .shape128::after {
+    content: '';
+    background: url(../img/Shape128.png) no-repeat #ff4e50;
+    background-position: center;
+  }
+  .shape155::after {
+    content: '';
+    background: url(../img/Shape155.png) no-repeat #ffa507;
+    background-position: center;
+  }
+  .shape153::after {
+    content: '';
+    background: url(../img/Shape153.png) no-repeat #1cd7ad;
+    background-position: center;
+  }
+  .shape170::after {
+    content: '';
+    background: url(../img/Shape170.png) no-repeat #4e73db;
+    background-position: center;
+  }
+  .partner-button {
+    width: 280px;
+    min-height: 42px;
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    border: 3px solid #ff4e50;
+    text-align: center;
+    margin: 0 auto;
+    color: #ff4e50;
+    padding-top: 9px;
+    margin-bottom: 60px;
+  }
+  /* media scrin */
+@media screen and (min-width: 768px) {
+    .container {
+        width: 748px;
+      }
+      header {
+        padding-bottom: 236px;
+      }
+      .nav-wrapper {
+        flex-direction: row;
+      }
+      .logo {
+        margin: 0;
+        padding-top: 39px;
+      }
+      .check {
+        padding-top: 40px;
+        margin-bottom: 150px;
+      }
+      .title {
+        font-size: 52px;
+        width: 508px;
+        margin: 0 auto;
+      }
+      .title-text {
+        width: 100%;
+        margin: 40px 0;
+        font-size: 34px;
+      }
+      .partner::after {
+        right: 95px;
+      }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 992px;
+  }
+  .partner::after {
+    right: 47px;
+  }
+}
