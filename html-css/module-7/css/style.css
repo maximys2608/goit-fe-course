@@ -231,16 +231,16 @@ input:required:valid {
 textarea::placeholder {
     color: #bbbbbb;
 }
-.input-block input[name='email']:valid {
+.input-block input[name='email']:valid:focus {
     outline: 2px solid green;
 }
-.input-block input[name='email']:invalid {
+.input-block input[name='email']:invalid:focus {
     outline: 2px solid red;
 }
-.input-block input[name='name']:valid {
+.input-block input[name='name']:valid:focus {
     outline: 2px solid green;
 }
-.input-block input[name='name']:invalid {
+.input-block input[name='name']:invalid:focus {
     outline: 2px solid red;
 }
 .submit {
