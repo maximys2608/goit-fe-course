@@ -87,6 +87,8 @@ body {
 .login:hover {
   border: 2px solid#ffffff;
   transition: all 0.2s;
+  text-decoration: none;
+  color: #ffffff;
 }
 .sing-up {
     text-decoration: none;
@@ -102,6 +104,8 @@ body {
 .sing-up:hover {
   border: 2px solid#ffffff;
   transition: all 0.2s;
+  text-decoration: none;
+  color: #ffffff;
 }
 .title {
     font-size: 29px;
