@@ -402,7 +402,7 @@ footer input::placeholder {
     text-transform: capitalize;
     padding-left: 10px;
 }
-/* MEDIA */
+/*------------- MEDIA -----------*/
 @media (min-resolution: 192dpi),(min-resolution: 2dppx) {
     header {
         background-image: url(../img/Layer_15@2x.jpg);
