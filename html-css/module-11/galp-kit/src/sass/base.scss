@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  font-family: $main-font-stack;
+  font-size: 14px;
+  color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+header {
+  background-image: url(../images/Layer_15.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(243,129,129, .9)), to(rgba(241,214,138, .9)));
+  background-image: -o-linear-gradient(rgba(243,129,129, .9), rgba(241,214,138, .9));
+  background-image: linear-gradient(rgba(243,129,129, .9), rgba(241,214,138, .9));
+  padding-bottom: 150px;
+}
